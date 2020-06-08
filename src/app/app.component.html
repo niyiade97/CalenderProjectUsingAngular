@@ -1,0 +1,71 @@
+
+<h1>{{title}}</h1>
+
+<div class="month">      
+  <ul>
+    <li id="prev" (click)="prev7Day(dayCounter,currentYear,monthCounter,currentDay,yearCounter,currentMonth)" >&#8810;</li>
+    <li id="prev" (click)="prevDay(dayCounter,currentYear,monthCounter,currentDay,yearCounter,currentMonth)" >&#60;</li>
+    
+    <li id="next"  (click)="next7Day(dayCounter,currentYear,monthCounter,currentDay,yearCounter,currentMonth)">&#8811;</li>
+    <li id="next" (click)="nextDay(dayCounter,currentYear,monthCounter,currentDay,yearCounter,currentMonth)">&#62;</li>
+    <li id="MonthAndYear">{{monthAndYear}}</li>
+    <input  #textInput size="15" maxlength ="10" placeholder="Enter date,press enter" (keyup.enter)="GetInput(textInput.value)" >
+  </ul>
+</div>
+
+  <ul class="weekdays">
+    <li>SUN</li>
+    <li>MON</li>
+    <li>TUE</li>
+    <li>WED</li>
+    <li>THU</li>
+    <li>FRI</li>
+    <li>SAT</li>
+  </ul>
+
+<ul id="days">
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+</ul>
+
+
